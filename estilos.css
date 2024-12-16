@@ -1,0 +1,461 @@
+/*#ff7806 #4cbfde #adadad*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+ul, ol{
+	list-style: none;
+}
+.rokkit{
+	font-family: 'Rokkitt', serif;
+	font-weight: 700;
+	color: #adadad;
+}
+.open{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #adadad;
+}
+.button{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	padding: 1px 5px;
+	background: #4cbfde;
+	cursor: pointer;
+}
+.button:hover{
+	background: #ff7806;
+	color: #fff;
+}
+.bigcontainer{
+	width:980px;
+	background:#fff;
+	margin:auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	}
+.header_up{
+	background: white;
+	overflow: auto;
+	margin-top: 20px;
+}
+.guau_logo{
+	width: 279px;
+	height: 108px;
+	background:url(imagenes/guau_logo1.jpg);
+	float: left;
+}
+.header_up_right{
+	float: right;
+	height: 108px;
+}
+.header_up_right ul{
+	clear: right;
+	float: right;
+}
+.header_up_right ul li{
+	float: left;
+} 
+.register li a{
+	font-size: 18px;
+	display: block;
+	margin:10px 10px ;
+	text-decoration: none;
+}
+.register li a:hover{
+	text-decoration: underline;
+}
+.header_logos li{
+	margin:5px 5px;
+}
+.header_logos li a{
+	display: block;
+	text-decoration: none;
+}
+.header_down{
+	padding: 20px 0px 20px; 
+}
+nav ul{
+	overflow: hidden;
+}
+nav ul li{
+	float:left;	
+}
+nav ul li a{
+	font-family: 'Rokkitt', serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #adadad;
+	display: block;
+	text-decoration: none;
+	margin: 15px 10px;
+	padding: 5px 5px;	
+}
+nav ul li a:hover{
+	color: #ff7806;
+}
+.hbuscar{
+	float: right;
+	margin-top: 12px;
+	border: 0;
+	border-radius: 15px;
+	padding: 5px 10px;
+	background: #eeeeee;
+}
+.hbuscar, select, textarea{
+    color: #adadad;
+}
+.hbuscar:focus {
+    outline: none !important;
+    border:0px;    
+}
+.sliderimg{
+	width: 980px;
+	height: 455px;
+	background: url(imagenes/slider2.jpg);
+}
+.slider{
+	text-align: center;
+}
+.slider ul{
+	display: inline-block;
+	padding: 20px 0px 50px;
+}
+.slider ul li{
+	display: inline-block;
+	margin: 0px 10px 0px;
+	cursor: pointer;
+}
+.circle{
+	width: 15px;
+	height: 15px;
+	background: #adadad;
+	border-radius: 50%
+}
+.advertisement{
+	width: 300px;
+	float: right;
+}
+.advertisement h5 a{
+	font-size: 12px;
+}
+.advertisement p{
+	font-size: 13px;
+}
+.advertisement h3{
+	font-family: 'Rokkitt', serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ff7806;
+}
+.bannerimg{
+	margin-top: 10px;
+	width: 300px;
+	height: 250px;
+	background: url(imagenes/banner.jpg);
+}
+.banner:after{
+  content: "";
+  border-bottom: 1px solid #adadad;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+.promo{
+	overflow: auto;
+}
+.promocopy{
+	margin-left: 95px; 
+	padding-left: 5px;
+	height: 95px;
+	position: relative;
+}
+.promoimg{
+	width: 95px;
+	height: 95px;
+	float: left;
+}
+.promoname a{
+	font-size: 18px;
+	color: #ff7806;
+	text-decoration: none;
+}
+.promoname a:hover{
+	text-decoration: underline;
+}
+.promolink a{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 12px;
+}
+.promo:after{
+  content: "";
+  border-bottom: 1px solid #adadad;
+  width: 100%;
+  display: block;
+  margin: 10px 0px 10px ;
+}
+.searcher{
+	text-align: center;
+}
+.searcher h3{
+	max-width: 200px;
+	margin: 5px auto 20px;
+}
+.category{
+	width: 160px;
+	margin: 20px auto ;
+	padding-top: 5px;
+}
+.category p{
+	float: left;
+	clear: both;
+}
+.category input{
+	float: right;
+	text-align: left;
+	width: 90px;
+	border: 0;
+	border-radius: 15px;
+	padding: 0px 5px;
+	background: #eeeeee;
+}
+.category input, select, textarea{
+    color: #adadad;
+}
+.category input:focus {
+    outline: none !important;
+    border:0px;    
+}
+.search_boton{
+	margin-top: 20px;
+}
+.searcher:after{
+  content: "";
+  border-bottom: 1px solid #adadad;
+  width: 100%;
+  display: block;
+  margin: 20px 0px 10px ;
+}
+.social_box{
+	text-align: center;
+}
+.social_logo{
+	margin: 20px auto 0px;
+	width: 22px;
+	height: 18px;
+}
+.social_img{
+	margin: 20px auto 0px;
+}
+.twsocial_img{
+	background: url(imagenes/tw_social.jpg);
+	width: 247px;
+	height: 292px;
+}
+.fbsocial_img{
+	background: url(imagenes/fb_social.jpg);
+	width: 244px;
+	height: 287px;
+}
+.social_link{
+	margin: 20px auto 0px;
+}
+.social_box:after{
+  content: "";
+  border-bottom: 1px solid #adadad;
+  width: 100%;
+  display: block;
+  margin: 20px 0px 10px ;
+}
+.content{
+	width: 680px;
+}
+.sales:after{
+  content: "";
+  border-bottom: 1px solid #adadad;
+  width: 650px;
+  display: block;
+  margin: 20px 0px 0px;
+}
+.sale{
+	width: 315px;
+	height: 178px;
+	border: 2px solid #adadad;
+	border-radius: 15px;
+	margin: 0px 15px 15px 0px;
+	display: inline-block;
+	text-align: center;
+}
+.sale_name a{
+	display: inline-block;
+	font-size: 20px;
+	color: #ff7806;
+	margin:12px auto;
+	text-decoration: none;
+}
+.sale_img{
+	width:132px;
+	height: 89px;
+	float: left; 
+}
+
+.sale_content{
+	text-align: left;
+	overflow: auto;
+}
+.sale_content h5{
+	font-size: 30px;
+	color: #ff7806;
+	float: left;
+}
+.sale_content h5 .percent{
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.sale_content h5 .desc{
+	font-size: 17px;
+	vertical-align: middle;
+}
+.brand{
+	margin-top: 10px;
+	float: left;
+}
+.brand p{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.brand_logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.sale_bottom{
+	margin-top: 13px;
+}
+.sale_bottom .boton{
+	float: left;
+	margin: 0px 0px 0px 40px;
+	padding: 0px 5px;
+}
+.salelink a{
+	float: right;
+	margin-right: 20px;
+	font-size: 12px;
+}
+.post{
+	margin-top: 35px;
+	height: 156px;
+	width: 650px;
+}
+.post_img{
+	width: 256px;
+	height: 156px;
+	float: left;	
+}
+.postcopy{
+	margin-left: 256px;
+	padding-left: 10px;
+	position: relative;
+}
+.post_name a{
+	font-size: 24px;
+	color: #ff7806;	
+	text-decoration: none;
+}
+.post_name a:hover{
+	text-decoration: underline;
+}
+.post p{
+	font-size: 14px;
+	line-height: 180%;
+}
+.footer{
+	width: 100%;
+	background: #eeeeee;
+}
+.footer_content{
+	width: 980px;
+	margin: auto;
+	overflow: auto;
+}
+.block{
+	vertical-align: top;
+	display: inline-block;
+	height: 250px;
+	margin: 50px 30px 40px 0px;
+	padding: 0px 70px 0px 0px;
+	border-right: 1px solid #adadad;
+}
+.block h3{	
+	font-size: 18px;
+	margin-bottom: 20px
+}
+.block a{
+	font-size: 14px;     
+	color: #adadad;
+	margin-bottom: 10px;
+	text-decoration: none;
+	display: block;
+}
+.block a:hover{
+	text-decoration: underline;
+}
+.aliados{
+	vertical-align: top;
+	display: inline-block;
+	margin: 50px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.aliados h3{
+	font-size: 18px;
+	margin-bottom: 20px
+}
+.aliados p{	
+	font-size: 14px;
+}	
+.aliados_ul li{
+display: inline-block;	
+}
+.aliados_ul li a{
+	display: block;
+	text-decoration: none;
+	margin: 10px 15px 25px 0px;	
+}
+.footer_boton{
+	float: right;
+	margin-top: 20px;
+	cursor: pointer;	
+}
+.footer_logos li{
+	margin:10px 5px 50px 0px;
+	display: inline-block;
+}
+.footer_logos li a{
+	display: block;
+	text-decoration: none;
+}
+.footer_logos p{
+	font-size: 14px;
+}
+.footer_logo{
+	width: 28px;
+	height: 28px;	
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+	background: #ff7806;
+}
+.copyright p{
+	font-size: 12px;
+	color: #fff;
+	padding: 25px 0px;
+}
